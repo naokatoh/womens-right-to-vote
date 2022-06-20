@@ -1,0 +1,39 @@
+'W. Sahara',
+ 'Uzbekistan',1938
+ 'Somalia',	1956
+ 'Kenya',	1963
+ 'Sudan',	1964
+ 'Dominican Rep.',	1942
+ 'Falkland Is.',
+ 'Norway',1913
+ 'Greenland',1948
+ 'Fr. S. Antarctic Lands',
+ 'Timor-Leste',1976
+ 'Nicaragua',1955
+ 'France',1944
+ 'Puerto Rico',1935
+ 'Palestine*',1972
+ 'Iraq',1948
+ 'Oman',1994
+ 'Cambodia',1955
+ 'Thailand',1932
+ 'Myanmar*',1922
+ 'Afghanistan',1964
+ 'Sweden',1919
+ 'Ukraine',1917
+ 'Bulgaria',1944
+ 'New Caledonia',
+ 'Australia*',1962
+ 'Taiwan',	1947
+ 'Brunei*',1959
+- National elections in Brunei currently suspended. Both men and women have voting rights only for local elections.
+
+
+ 'Finland',	1906
+ 'Saudi Arabia*',2015
+ 'Antarctica',
+ 'N. Cyprus',
+ 'Somaliland',
+ 'Macedonia',1990
+ 'Kosovo',1990
+ 'S. Sudan' 2011]

@@ -1,0 +1,100 @@
+<!-- Citi Bike Mapping -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Women's Right to Vote Mapped</title>
+    <link rel="icon" href="img/favicon.png"> 
+
+
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500|Roboto:300,300i,400,400i">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<h1 class ="robotoMono">Women's Right to Vote Mapped</h1>
+<h2>Three Facts on women's suffrage in the world</h2>
+
+<h3><span>1</span>New Zealand was the first nation in the world to give all women the right to vote at the national level </h3>
+
+<p class="content">
+    Universal suffrage was first realized in the French Revolution at the end of the 18th century. However, <a href="https://revolution.chnm.org/exhibits/show/liberty--equality--fraternity/women-and-the-revolution#:~:text=Women%20never%20gained%20full%20political,neither%20vote%20nor%20hold%20office)." target="new">only men were granted the right to vote</a>. Even during the Revolution, it was believed that men should participate in society and women should support men.
+</p>
+<p class="content">
+    In the 19th century, movements for women's suffrage became active, especially in the U.S. and Europe. However, it was <b>New Zealand</b>, then a British colony, that became the first country in the world to grant women the right to vote at the national level. The movement was led by British-born suffragist <a href="https://nzhistory.govt.nz/politics/womens-suffrage" target="new">Kate Sheppard</a>.
+</p>
+
+
+
+<h3><span>2</span>Not All Women Were "Women"? Some countries divided women by ethnicity, property or marital status</h3>
+
+<p class="content">
+    In <b>Australia</b>, non-indigenous women were granted the vote in the national level as early as 1902. But indigenous people were not given the right until 1962. Similarly in <b><a href="https://web.archive.org/web/20150309131216/http://www.canadiana.ca/citm/themes/aboriginals/aboriginals12_e.html" target="new">Canada</a></b>, aboriginal people (not only women but also men) were not given the right to vote until 1960. 
+</p>
+
+
+<p class="content">
+Some countries, such as <b>Bulgaria</b>, permitted married women to vote in 1937, but unmarried women were not allowed to vote until 1944. In many countries, women without property qualifications were initially not allowed to vote.
+</p>
+<h3><span>3</span>Voting rights were granted. Some countries, however, allow their citizens to exercise them only at local elections</h3>
+
+<p class="content">
+  In <a href="https://asiafoundation.org/wp-content/uploads/2017/05/Womens-Political-Participation-in-Myanmar-MP-Experiences_report-1.pdf" target ="new"><b>Myanmar</b></a>, women were allowed vote as early as 1935 but in practice, most of the women in the country could not actively participate in the politics due to the decades-long military rule. In <b>Brunei</b>, women can also vote, but with national elections suspended, they cannot exercise their right except for local elections.  
+</p>
+
+<p class="content">
+ Similarly, <b>Saudi Arabia</b>, which <a href="https://www.bbc.com/news/world-middle-east-35075702" target="new">allowed women to registered to vote in 2015</a>, has no national elections so far. In <a href ="https://www.amnesty.org.uk/womens-rights-afghanistan-history" target="new"><b>Afghanistan</b></a>, women's political participation was restricted during the Taliban regime from the late 1990s to 2001. In Afghanistan, women have been able to vote again since the US-led international intervention in 2021, but discrimination against women is escalating after the Taliban seized power again in 2021. 
+
+  </p>
+
+<!-- <input id="slider" type="range" min="0" max="12" step="1" value="0">    -->
+<div id='map' ></div>
+
+<!-- <div><h3>2021</h3></div>
+<div id='map2' ></div> -->
+<p class="content">
+    Source: Most data are taken from the IPU database (<a href="https://data.ipu.org/compare?field=country%3Afield_suffrage%3Afield_right_to_vote#map" taeget ="new">Compare data | Parline: the IPU’s Open Data Platform</a>). Data missing in the database were complied from other datasets including the United Nations documents and recent news reports. 
+    
+   
+    
+    
+   
+</p>
+<div class="map-overlay" id="legend">A year that the right to vote granted for women at the national level</div>
+
+
+<h3>Similar Map created with Altair</h3>
+<img src="img/alt_map.svg" alt="Altair map with the same datasets" width="800" height="400">
+
+
+
+<p class="content">
+    <!-- Here are analysis and mapping of how Citi Bike is used in September 2020 and September 2021. Data for each time period are available from <a href="https://s3.amazonaws.com/tripdata/index.html" target="_blank">here</a>. -->
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type='text/javascript' src="map.js"></script>
+    
+<button type="button" onclick="location.href='https://naokatoh.github.io/pointsunknown/'">Go back</button>
+</body>
+
+</html>
